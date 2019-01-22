@@ -8,4 +8,7 @@ git commit --amend : Udskift din sidste commit med denne commit
 git reset HEAD <filename> : Unstage en staged fil
 git checkout -- <filename> : Slet ændringer foretaget i filen, så filen ligner sig selv fra sidste commit
 
+git branch <name-of-branch> : Opret ny branch
+
+
 
