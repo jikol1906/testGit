@@ -2,3 +2,5 @@ git diff: Forskel på staged og working directory
 git diff --staged: Forskel på staged og sidste commit
 
 git lof -p : Vis log med diff
+
+git commit --amend : Udskift din sidste commit med denne commit
