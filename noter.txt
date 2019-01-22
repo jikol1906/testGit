@@ -2,7 +2,7 @@ diff:
 git diff: Forskel på staged og working directory
 git diff --staged: Forskel på staged og sidste commit
 
-commites
+commits
 git log -p : Vis log med diff
 git commit --amend : Udskift din sidste commit med denne commit
 
@@ -13,5 +13,6 @@ git checkout -- <filename> : Slet ændringer foretaget i filen, så filen ligner
 branches:
 git branch <name-of-branch> : Opret ny branch
 git diff <branch-one>..<branch_2> : Se forskel på to branches sidste commits"
+git fetch <remote-repo-name>/<branch-name> : Få de sidste de sidste ændringer fra remote repo ned lokalt uden at merge
 
 
