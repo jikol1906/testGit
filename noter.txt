@@ -1,15 +1,17 @@
+diff:
 git diff: Forskel på staged og working directory
 git diff --staged: Forskel på staged og sidste commit
 
+commites
 git log -p : Vis log med diff
-
 git commit --amend : Udskift din sidste commit med denne commit
 
+resets:
 git reset HEAD <filename> : Unstage en staged fil
 git checkout -- <filename> : Slet ændringer foretaget i filen, så filen ligner sig selv fra sidste commit
 
+branches:
 git branch <name-of-branch> : Opret ny branch
-
 git diff <branch-one>..<branch_2> : Se forskel på to branches sidste commits"
 
 
